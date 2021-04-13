@@ -13,31 +13,37 @@ class Car {
         $this->color = $color;
     }
 
-    public function setName($name){
+    public function setName($name)
+    {
         $this->name = $name;
     }
-    public function getName(){
+    public function getName()
+    {
         return $this->name;
     }
-    public function setNumber($number){
+    public function setNumber($number)
+    {
         $this->number = $number;
     }
-    public function getNumber(){
+    public function getNumber()
+    {
         return $this->number;
     }
-    public function setColor($color){
+    public function setColor($color)
+    {
         $this->color = $color;
     }
-    public function getColor(){
+    public function getColor()
+    {
         return $this->color;
     }
 
     public function information()
     {
         return
-        '車の車種:' . $this->name . "\n" .
-        '車体番号:' . $this->number . "\n" .
-        'カラー:' . $this->color . "\n";
+            '車の車種:' . $this->name . "\n" .
+            '車体番号:' . $this->number . "\n" .
+            'カラー:' . $this->color . "\n";
     }
 }
 
